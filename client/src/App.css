@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.flexcol{
+  display: flex;
+  flex-direction: column;
+}
+.flexrow{
+  display: flex;
+  flex-direction: row;
+}
+.flexrotocol{
+  display: flex;
+  flex-direction: row;
+}
+.center{
+  justify-content: center;
+  align-items: center;
+}
+.w80{
+  width: 80%;
+}
+.w100{
+  width: 100%;
+}
+.between{
+  justify-content: space-between;
+}
+.aligncenter{
+  align-items: center;
+}
+.h50vh{
+ height: 50vh; 
+}
+.h400px{
+  height: 400px;
+}
+.margtop{
+  margin-top: 30px;
+}
+.minh100{
+  min-height: 100vh;
+}
+
+.h100
+{
+  height: 100%;
+}
+.h100vh{
+  height: 100vh;
+}
+.secondbc{
+  background-color: rgb(195, 83, 195) ;
+}
+.img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+}
+.w60{
+  width: 70%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(195, 83, 195);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

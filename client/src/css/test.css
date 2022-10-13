@@ -1,0 +1,86 @@
+.h400{
+    height: 600px;
+    width: 300px;
+    overflow: hidden;
+}
+.top{
+    height: 30%;
+    width: 100%;
+    background-image: url('../image/flower2.jpg');
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+}
+.marginlr{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.cardimagebig{
+    position: absolute;
+    z-index: -10;
+}
+
+.page{
+    height: 75%;
+    object-fit: cover;
+    background-size: cover;
+    color: pink;
+transform: translate(0,-50px);
+position: relative;
+}
+
+.cardimage{
+    object-fit: cover;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+.imageRound{
+    
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url('../image/blackback.jpg');
+    object-fit: cover;
+    background-size: cover;
+    z-index: 99999999999999999999999999;
+    box-shadow: 3px 20px 30px black;
+   transform: translate(0,80px);
+    
+}
+
+.grid-3{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+}
+.circleSocial{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonCall{
+margin-top: 50px;
+
+}
+.buttonCallNow{
+    padding: 10px 20px 10px 20px;
+    background-color: pink;
+    border: none;
+    font-weight: 900;
+}
+.headers{
+    max-width: 95%;
+
+}
