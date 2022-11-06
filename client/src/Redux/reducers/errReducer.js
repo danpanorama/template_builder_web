@@ -34,7 +34,7 @@ const products = (state = initialState, action) => {
 
       err.msg = action.data
       err.active_message = true
-      good.type = 'bad'
+      err.type = 'bad'
 
       return err;
 
