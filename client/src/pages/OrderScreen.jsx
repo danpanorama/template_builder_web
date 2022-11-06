@@ -16,7 +16,7 @@ function OrderScreen(props) {
     phone:0,
     job:''
   })
-  const dispatch = useDispatch();
+  const dispatch = useDispatch();   
   let location = useLocation();
 
   function sendto() {
