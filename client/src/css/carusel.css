@@ -4,9 +4,6 @@
 }
 
 
-body.blue {
-  background-color: #428aa6;
-}
 
 input[type=radio] {
   display: none;
@@ -142,7 +139,7 @@ img {
 .progress {
   display: block;
   position: relative;
-  width: 60%;
+  width: 100%;
   height: 100%;
   background-color: #2992dc;
   border-radius: 6px;
@@ -179,11 +176,11 @@ img {
     background-color: #eae4e4;
     width: 100%;
     text-align: center;
-    box-shadow: inset 3px 5px 10px black;
+  
 display: flex;
 flex-direction: row;
 align-items: center;
-justify-content: space-between;
+justify-content: flex-end;
 
 }
 .margleft{

@@ -5,6 +5,7 @@ import NavBar from './NavBar';
 import HomeScreen from '../pages/HomeScreen';
 import OrderScreen from '../pages/OrderScreen';
 import TestScreen from '../pages/TestScreen';
+import OrderEdit from '../pages/OrderEdit';
 function NavRoute() {
   return (
     <div className="navrout ">
@@ -18,7 +19,7 @@ function NavRoute() {
 <Route path="/*" element={<HomeScreen/>} exact/>
 
 <Route path="/order/:id" element={<OrderScreen/>} exact/>
-<Route path="/test/:id" element={<TestScreen/>} exact/>
+<Route path="/order/:id" element={<OrderEdit/>} exact/>
 
 
 

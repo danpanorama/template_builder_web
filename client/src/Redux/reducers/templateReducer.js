@@ -2,6 +2,8 @@ import * as actionTypes from "../constants/templateContante.js";
 import Image1 from '../../image/card.png'
 import Image2 from '../../image/card2.png'
 import Image3 from '../../image/card5.png'
+import Image4 from '../../image/salimg.png'
+import Image5 from '../../image/koling.png'
 
 import Bg from '../../image/flower2.jpg'
 import Bgsamia from '../../image/back.jpg'
@@ -18,20 +20,57 @@ import Nof from '../../image/nof.jpeg'
 const initialState = {
     templateChois: {},
     template: [
-        {
-          name:'temp2',
+   
+
+      {
+          name:'temp1',
           image:Image3,
           topbg:GoldBg,
           profileImage:F1img,
           color:"gold",
           bigBg:BlackDarkBg,
-          simblue:"♡",
+          simblue:"&",
           nameheader:"your Name",
           workheader:"your work",
-          buttonSize:2,
+          buttonSize:'40%',
+          buttonPos:"center",
+          shape:'polygon(50% 0%, 81% 0, 100% 0, 100% 100%, 0 100%, 0 0, 25% 0)',
+          id:14
+         },
+         {
+            name:'temp1',
+            image:Image4,
+            topbg:GoldBg,
+            profileImage:F1img,
+            color:"gold",
+            bigBg:BlackDarkBg,
+            simblue:"&",
+            nameheader:"your Name",
+            workheader:"your work",
+            buttonSize:'40%',
+            buttonPos:"center",
+            shape:'polygon(50% 0%, 81% 0, 100% 0, 100% 100%, 0 100%, 0 0, 25% 0)',
+            id:15
+           },
+           {
+            name:'temp1',
+            image:Image5,
+            topbg:GoldBg,
+            profileImage:F1img,
+            color:"gold",
+            bigBg:BlackDarkBg,
+            simblue:"&",
+            nameheader:"your Name",
+            workheader:"your work",
+            buttonSize:'40%',
+            buttonPos:"center",
+            shape:'polygon(50% 0%, 81% 0, 100% 0, 100% 100%, 0 100%, 0 0, 25% 0)',
+            id:1
+           },
+  
+  
 
-          id:1
-        },
+  
        
         {
           name:'temp2',
@@ -70,12 +109,13 @@ const initialState = {
           profileImage:F1img,
           color:"gold",
           bigBg:BlackDarkBg,
-          simblue:"♡",
+          simblue:"&",
           nameheader:"your Name",
           workheader:"your work",
           buttonSize:2,
+          shape:'polygon(50% 0%, 81% 0, 100% 0, 100% 100%, 0 100%, 0 0, 25% 0)',
 
-          id:1
+          id:2
         },
        
         {
@@ -90,7 +130,7 @@ const initialState = {
           workheader:"your work",
           buttonSize:1,
 
-          id:3
+          id:4
         },
         {
           name:'temp1',
@@ -106,7 +146,7 @@ const initialState = {
           workheader:"your work",
           buttonSize:1,
 
-          id:9
+          id:5
         }, 
         {
           name:'temp2',
@@ -115,12 +155,12 @@ const initialState = {
           profileImage:F1img,
           color:"gold",
           bigBg:BlackDarkBg,
-          simblue:"♡",
+          simblue:"&",
           nameheader:"your Name",
           workheader:"your work",
           buttonSize:2,
-
-          id:1
+          shape:'polygon(50% 0%, 81% 0, 100% 0, 100% 100%, 0 100%, 0 0, 25% 0)',
+          id:6
         },
        
         {
@@ -135,7 +175,7 @@ const initialState = {
           workheader:"your work",
           buttonSize:1,
 
-          id:3
+          id:7
         },
         {
           name:'temp1',
@@ -151,7 +191,7 @@ const initialState = {
           workheader:"your work",
           buttonSize:1,
 
-          id:9
+          id:8
         }, 
         {
           name:'temp2',
@@ -165,7 +205,7 @@ const initialState = {
           workheader:"your work",
           buttonSize:1,
 
-          id:3
+          id:10
         },
         {
           name:'temp1',
@@ -181,7 +221,7 @@ const initialState = {
           workheader:"your work",
           buttonSize:1,
 
-          id:9
+          id:11
         }, 
       ],
     user: {},

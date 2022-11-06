@@ -7,15 +7,17 @@ import Image2 from "../../image/card2.png";
 import Image3 from "../../image/card5.png";
 
 function TemplatsList(props) {
+
   return (
-    <div id="temp" className="templatelist ">
+    <div  className="templatelist ">
       <div className="grid">
         {props.arr
-          ? props.arr.map((e) => {
+          ? props.arr.map((e,i) => {
+           
               return (
                 <Link
                   to={{
-                    pathname: "test/" + e.id,
+                    pathname: "order/" + e.id,
                     
                   }}
                   state={{ data: e }}
@@ -25,10 +27,8 @@ function TemplatsList(props) {
                   <div className="image">
                     <img className="img" src={e.image} alt="" />
                   </div>
-                  <div className="buttons">
-                    <p className="cardname">{e.name}</p>
-                    <button id={e.id}>checkout</button>
-                  </div>
+                  
+                 
                 </Link>
               );
             })

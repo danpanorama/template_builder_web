@@ -11,9 +11,9 @@ console.log(props.arr)
 
   return (
     <div className="placeCenter flexcol center">
-        <h1>templates</h1>
+        <h1 className='cw'>templates</h1>
      
-    <div className="w80">
+    <div className="w100">
           <TemplatsList arr={props.arr} />
     </div>
       

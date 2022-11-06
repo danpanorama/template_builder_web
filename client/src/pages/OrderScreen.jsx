@@ -31,30 +31,36 @@ function getPhone(e){
 console.log(location.state?location.state.data:"nonono")
 
   return (
-    <div className="minh100 bcCool flexcol center">
-      <div className="tamplateInfo ">
-        <div className="image ">
-          <img src={location.state?location.state.data.image:""} alt="" className="h400px" />
+    <div className="minh100 bcCool flexcol margintop50 ">
+     <div className="w100 backbtn ">
+     <a className='' href="/">back</a>
+     </div>
+ <div className="flexrowtocol">
+ <div className="tamplateInfo  marginwidth">
+        <div className="image flexcol center">
+          <img src={location.state?location.state.data.image:""} alt="" className=" imagehw" />
         </div>
         <div className="info">
-          <p className="name">{location.state?location.state.data.name:"no found"}</p>
+          {/* <p className="name">{location.state?location.state.data.name:"no found"}</p> */}
         </div>
       </div>
 
-       <div className="box flexcol">
-        <div className="flexrow">
+       <div className="box marginleft formtemp  flexcol ">
+        <div className="flexrowtocol ">
           <label htmlFor="name">name</label>
-          <input name="name" id='name' onChange={getName} type="text" />
+          <input name="name" id='name' onChange={getName} type="text" className='inputext' />
           <label htmlFor="work">work</label>
-          <input name="work" id='work' onChange={getName} type="text" />
+          <input name="work" id='work' onChange={getName} type="text" className='inputext' />
           
         </div>
+        <label htmlFor="work">email</label>
+        <input onChange={getEmail} type="email" className='inputext' />
+        <label htmlFor="work">phone</label>
 
-        <input onChange={getEmail} type="email" />
-
-        <input onChange={getPhone} type="number" />
-         <button onClick={sendto} >send</button>
+        <input onChange={getPhone} type="number" className='inputext' />
+         <button className='buttonsend' onClick={sendto} >send</button>
        </div>
+ </div>
 
     </div>
   );

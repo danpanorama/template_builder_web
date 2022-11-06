@@ -9,6 +9,7 @@ import Image2 from "../../image/card2.png";
 import Image3 from "../../image/card5.png";
 
 function TemplatEdit(props) {
+  console.log(props)
   return (
     <div className="h400 ">
       <div
@@ -16,11 +17,11 @@ function TemplatEdit(props) {
         //   backgroundImage:
         //     "url(" + props.topInmage ? props.topInmage : props.data.topbg  + " )",
         // }}
-        className="top"
+        className="top2"
       >
         <img
-          src={props.topImage ? props.topImage : props.data.topBg}
-          className="img cardimage"
+          src={props.topImage ? props.topImage : props.data.topbg}
+          className="img cardimage "
           alt=""
         />
         <div
@@ -131,17 +132,17 @@ function TemplatEdit(props) {
               </div>
             </div>
             <div
-              style={{ alignItems: props.buttonPos }}
+              style={{ alignItems: props.buttonPos? props.buttonPos :'center' }}
               className="buttonCall w100 flexcol"
             >
               <button
                 style={{
                   backgroundColor: props.color || props.data.color,
-                  width: props.buttonSize,
-                  alignItems: props.buttonPos,
+                  width: props.buttonSize? props.buttonSize : '40%',
+                  
                 }}
                 className="buttonCallNow"
-              >
+              > 
                 call now
               </button>
             </div>

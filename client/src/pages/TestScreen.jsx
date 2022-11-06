@@ -1,5 +1,7 @@
 import '../App.css';
 import '../css/home.css'
+import '../css/media.css'
+
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import {setTemplate, setUser} from '../Redux/Actions/templateActions'

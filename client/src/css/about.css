@@ -1,0 +1,91 @@
+.cardexplain{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    transition: all .3s ease;
+   border: 2px solid black;
+    border-radius: 5px;
+
+}
+.gridrow3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 55px;
+    height: 100%;
+    width: 100%;
+ 
+}
+.h40{
+    height: 40vh;
+}
+.scal{
+    transform: scale(1.2);
+
+    z-index: 999999;
+}
+.opa{
+    opacity: .8;
+   
+}
+.paddingCard{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+
+.logocard{
+   height: 30%;
+
+
+}
+
+
+.headers{
+    text-align: center;
+}
+.textp{
+    text-align: right;
+    direction: rtl;
+    margin-top: 20px;
+    font-size: .9rem;
+    font-weight: 100;
+}
+.translateY{
+    transform: translateY(-40px);
+    
+}
+.pricing{
+height: 100%;
+margin-top: 12px;
+margin-bottom: 12px;
+}
+
+.sellbtn{
+    padding: 10px 20px 10px 20px;
+    transform: translateY(-10px);
+    position: absolute;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+    font-weight: 100;
+    border: none;
+
+}
+.right{
+    border-top-left-radius: 50px;
+}
+.left{
+    border-top-right-radius: 50px;
+}
+
+.h1price{
+    font-weight: 100;
+    color: rgb(164, 164, 164);
+}
+.textgray{
+    text-align: center;
+    font-size: .7rem;
+    color: rgb(164, 164, 164);
+}

@@ -1,5 +1,5 @@
 .primerybc{
-    background-image: radial-gradient(circle at 80% 80%, rgb(195, 83, 195) 0% 20%, purple 10% 100%);
+    background-image: linear-gradient( rgb(195, 83, 195) , purple );
 }
 .bcCool{
   background-image: radial-gradient(circle at 80% 80%, rgb(242, 188, 242) 0% 20%, rgb(249, 242, 249) 10% 100%);
@@ -10,21 +10,23 @@
 }
 .words{
   align-items: flex-end;
-margin-left: 120px;
+  margin-left: 150px;
+
 }
 .grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 50px;
+    grid-template-columns: 1fr 1fr  1fr ;
+    gap: 120px;
 }
 .header{
-  font-size: 5rem;
+  /* font-size: 5rem; */
   font-weight: 900;
   color: antiquewhite;
 }
 .h3{
   color: antiquewhite;
   margin-bottom: 50px;
+  font-weight: 100;
 }
 .primeryButton{
   padding: 10px 25px 10px 25px;
@@ -33,19 +35,25 @@ margin-left: 120px;
   font-weight: 900;
   font-size: 1.3rem;
   box-shadow: 3px 10px 30px black;
-  background-color: rgb(223, 141, 223);
+  background-color: rgb(255, 239, 255);
   color: rgb(16, 16, 16);
+  font-weight: 100;
 }
 .cbc{
-  background-color: purple;
+  background-color: rgb(254, 254, 254);
+  
 }
 .cardd{
     height: 100%;
-  
+    max-height: 500px;
+   position: relative;
+
   }
+
   .image{
-    height: 90%;
+    height: 100%;
     width: 100%;
+
   }
   .templatelist{
     padding: 35px;
@@ -59,7 +67,11 @@ margin-left: 120px;
 .bgclss{
   background-size: cover;
   object-fit: cover;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.88),rgba(255,255,255.8)),url('../image/mg5.jpg');
+  
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0.88),rgba(255,255,255.8)),url('../image/mg5.jpg'); */
+}
+.bgcolortemp{
+  background-color: purple;
 }
   .tamplateInfo{
   
@@ -67,8 +79,92 @@ margin-left: 120px;
 
   .pagelink{
     padding: 10px;
-   color: whitesmoke;
+   color: purple;
    text-decoration: none;
     margin-left: 10px;
   }
 
+
+
+  input{
+   
+    border-radius: 20px;
+
+  }
+
+
+
+.tempcontainer{
+  height: 100%;
+  width: 100%;
+
+
+}
+.tempcontainer{
+
+}
+  .templatesCar{
+    height: 50%;
+    width: 400px;
+ 
+
+
+
+  
+  }
+
+  .cardd2{
+    height: 100%;
+   margin-left: 10px;
+
+  
+
+
+  }
+
+  .image2{
+    height: 100%;
+  }
+
+
+  .transs{
+    transform: translateY(10px);
+  }
+  .transsup{
+    transform: translateY(-10px);
+
+  }
+  .buttonsend{
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+  }
+  .hamburger{
+    font-size: 2rem;
+    color: white;
+  }
+ 
+  .backbtn{
+    margin-top: 50px;
+  }
+  .imagehw{
+   height: 500px;
+   width: 300px;
+  }
+  .marginwidth{
+    width: 40%;
+    margin: 0 auto;
+  }
+  .marginleft{
+    margin-left: 20px;
+  }
+  .margintop50{
+    padding-top: 150px;
+  }
+
+  .formtemp{
+    padding: 10px;
+  
+  }

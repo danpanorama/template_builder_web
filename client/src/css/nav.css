@@ -16,3 +16,60 @@
     color: antiquewhite;
     font-weight: 700;
 }
+
+.navphone{
+    visibility: hidden;
+    display: none;
+}
+.navbarphone{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 90%;
+    height: 100%;
+    background-color: rgb(255, 0, 217);
+    transition: all .5s ease;
+}
+.closenav{
+    transition: all .5s ease;
+    width: 0;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    height: 100%;
+    background-color: aliceblue;
+}
+.linkp{
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+}
+.inputext{
+    height: 30px;
+
+}
+
+.closeBtn{
+ margin: 20px;  
+ position: absolute;
+}
+
+.displaynon{
+    display: none;
+}
+
+
+.iconcircle{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-right: 10px;
+ 
+}
+.mr20{
+    margin-right: 20px;
+}

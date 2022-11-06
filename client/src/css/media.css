@@ -1,0 +1,79 @@
+
+@media screen and (max-width: 992px) {
+    body{
+        overflow-x: hidden !important;
+    }
+    .flexrotocol{
+        flex-direction: column !important;
+      padding-top: 80px;
+    }
+    .h100vh{
+        height: auto !important;
+        min-height: 100vh !important;
+    }
+    .brtt{
+        display: block !important;
+    }
+    .logocard{
+        height: auto !important;
+        width: 40%;
+    }
+    .hjhjh{
+        height: 400px !important;
+        width: 300px !important;
+    }
+    .flexrowtocol{
+        flex-direction: column;
+    }
+    .words{
+        margin-left: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .templatelist{
+        padding: 10px;
+    }
+    .grid{
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+    .gridrow3{
+        grid-template-columns: 1fr !important;
+        gap: 90px !important;
+    }
+    .h40{
+        height: auto !important;
+    }
+    .templatesCar{
+        width: 170px;
+       
+        
+    }
+    .paddingpage{
+        width: 90%;
+        margin-top: 50px;
+    }
+    .paddingpagetemplate{
+        width: 95% ;
+    }
+    .navphone{
+        visibility: visible;
+        display: block;
+    }
+    .scal{
+        transform: none !important;
+    }
+    .navlinks{
+        display: none;
+        visibility: hidden;
+    }
+    .imagehw{
+        width: auto!important;
+        height: 300px !important;
+    }
+    .marginwidth{
+        width: 90% !important;
+        margin: 0 auto;
+    }
+  }

@@ -6,10 +6,10 @@ import Carusel from './Carusel';
 
 function CaruselSection() {
   return (
-    <div className="secondbc h100vh flexcol center ">
+    <div className="secondbc  flexcol center ">
        
         
-<div className="flexrow">
+<div className="flexrowtocol">
  
 <Carusel/>
  <div className="headers margleft">

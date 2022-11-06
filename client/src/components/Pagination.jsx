@@ -18,9 +18,9 @@ function Pagination(props) {
         <div className="arraynum flexrow center">
             {pagenum.map(num => (
                 <div key={num} className="f">
-                    <a href="#temp" onClick={()=> props.paginate(num)} className="pagelink cbc">
+                    <div href="" onClick={()=> props.paginate(num)} className="pagelink cbc">
                         {num}
-                    </a>
+                    </div>
                 </div>
             ))}
         </div>

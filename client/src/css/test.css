@@ -11,6 +11,13 @@
     background-size: cover;
     position: relative;
 }
+.top2{
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+    height: 30%;
+    width: 100%;
+}
 .marginlr{
     margin-left: 10px;
     margin-right: 10px;
