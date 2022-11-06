@@ -21,6 +21,9 @@ export const setTemplate = (data) => async (dispatch)=>{
 export const setUser = (data) => async (dispatch)=>{
     try{
         dispatch({type:SET_USER,data:data});
+        var win = window.open(`https://wa.me/972534273529?text=שלום%27לך%20קוראים%20לי%20${data.name}%20${data.phone}%20${data.email}`, '_blank')
+         
+        win()
 
     }catch(e){
         dispatch({
